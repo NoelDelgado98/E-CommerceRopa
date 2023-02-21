@@ -15,10 +15,11 @@
         <?php if(isset($mensaje)){ ?>
           <p class="error"><?php echo $mensaje; ?></p>
         <?php } ?>
+        <p><a href="registrar.php">Registrarse</a></p>
 
-        <button class="buttons" onclick="window.location.href='registrar.php'">Registrarse</button>
       </section>
     </form>
+
   </body>
 </html>
 
